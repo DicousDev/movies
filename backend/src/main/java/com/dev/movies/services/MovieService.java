@@ -22,6 +22,7 @@ public class MovieService {
 		return movies.map(movie -> new MovieDTO(movie));
 	}
 	
+	@Transactional
 	public MovieDTO findMovieById(Long idMovie) {
 		Movie movie = movieRepository.findById(idMovie).get();
 		return new MovieDTO(movie);
