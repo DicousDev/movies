@@ -8,7 +8,7 @@ function Navbar() {
 			<nav className="container">
 				<div className="movies-nav-content">
 					<h1>Movies</h1>
-                    <a href="https://github.com/DicousDev" target="_blank">
+                    <a href="https://github.com/DicousDev">
                         <div className="movies-contact-container">
                             <GitHubIcon/>
                             <p className="movies-contact-link">/DicousDev</p>
