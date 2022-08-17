@@ -9,8 +9,6 @@ type Props = {
 
 function Pagination({ page, onChange } : Props) {
 
-	
-
   	return (
 		<div className="movies-pagination-container">
 			<div className="movies-pagination-box">

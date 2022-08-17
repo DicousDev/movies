@@ -7,7 +7,7 @@ function Navbar() {
 		<header>
 			<nav className="container">
 				<div className="movies-nav-content">
-					<h1>Movies</h1>
+                    <a href="/"><h1>Movies</h1></a>
                     <a href="https://github.com/DicousDev">
                         <div className="movies-contact-container">
                             <GitHubIcon/>
